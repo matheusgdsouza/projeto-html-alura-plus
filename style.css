@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+:root {
+    --cor-background- : #00030C;
+    --cor-texto-principal- : #FFFFFF;
+}
+
 .conteudo-principal-pt1 {
     width: 100%;
     background-image: url(./img/Background.png);
@@ -17,7 +22,7 @@
 
 .conteudo-principal-pt1-titulo {
     font-family: "Josefin Sans", sans-serif;
-    color: #FFFFFF;
+    color: var(--cor-texto-principal-);
     font-size: 1.75rem;
     font-weight: bold;
     text-align: center;
@@ -30,7 +35,7 @@
 
 .conteudo-principal-pt1-link-1 {
     font-family: "Inter", sans-serif;
-    color: #FFFFFF;
+    color: var(--cor-texto-principal-);
     font-size: 1rem;
     text-decoration: none;
     background-color: #167bf7;
@@ -42,7 +47,7 @@
 
 .conteudo-principal-pt1-link-2 {
     font-family: "Inter", sans-serif;
-    color: #FFFFFF;
+    color: var(--cor-texto-principal-);
     font-size: 1rem;
     text-decoration: none;
     border-radius: 5px;
@@ -60,7 +65,7 @@
 }
 
 .conteudo-principal-pt2 {
-    background-color: #00030C;
+    background-color: var(--cor-background-);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -80,7 +85,7 @@
 
 .conteudo-principal-pt2-titulo {
     font-family: "Inter", sans-serif;
-    color: #FFFFFF;
+    color: var(--cor-texto-principal-);
     font-weight: bold;
     font-size: 3rem;
 }
