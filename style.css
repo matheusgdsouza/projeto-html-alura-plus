@@ -3,6 +3,11 @@
 :root {
     --cor-background- : #00030C;
     --cor-texto-principal- : #FFFFFF;
+    --cor-texto-secundario- : #F9F9F9;
+}
+
+body {
+    background-color: var(--cor-background-);
 }
 
 .conteudo-principal-pt1 {
@@ -92,8 +97,36 @@
 
 .conteudo-principal-pt2-texto {
     font-family: "Inter", sans-serif;
-    color: #f9f9f9;
+    color: var(--cor-texto-secundario-);
     font-size: 1rem;
     line-height: 1.5;
     font-weight: 100;
+}
+
+.conteudo-principal-pt3 {
+    background-color: var(--cor-background-);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 0%;
+}
+
+.conteudo-principal-pt3-escrito {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 0% 5%;
+}
+
+.conteudo-principal-pt3-texto {
+    font-family: "Inter", sans-serif;
+    color: var(--cor-texto-secundario-);
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.conteudo-principal-pt3-img-telas {
+    width: 35%;
 }
