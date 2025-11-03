@@ -3,10 +3,11 @@
 .conteudo-principal-pt1 {
     width: 100%;
     background-image: url(./img/Background.png);
+    background-size: cover;
 }
 
 .conteudo-principal-pt1-caixa-conteudo {
-    width: 35%;
+    width: 37%;
     padding: 10% 5%;
     display: flex;
     flex-direction: column;
@@ -25,6 +26,7 @@
 .conteudo-principal-pt1-img-combo {
     width: 70%;
 }
+
 
 .conteudo-principal-pt1-link-1 {
     font-family: "Inter", sans-serif;
@@ -54,4 +56,39 @@
     font-family: "Inter", sans-serif;
     font-size: 0.75rem;
     color: #C0C0C0;
+    font-weight: 200;
+}
+
+.conteudo-principal-pt2 {
+    background-color: #00030C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.conteudo-principal-pt2-img-plataformas {
+    width: 35%;
+}
+
+.conteudo-principal-pt2-caixa-texto {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 15px;
+}
+
+.conteudo-principal-pt2-titulo {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.conteudo-principal-pt2-texto {
+    font-family: "Inter", sans-serif;
+    color: #f9f9f9;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 100;
 }
