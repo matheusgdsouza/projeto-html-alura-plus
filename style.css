@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.conteudo-principal-pt1 {
+    width: 100%;
+    background-image: url(./img/Background.png);
+}
+
+.conteudo-principal-pt1-caixa-conteudo {
+    width: 35%;
+    padding: 10% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.conteudo-principal-pt1-titulo {
+    font-family: "Josefin Sans", sans-serif;
+    color: #FFFFFF;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.conteudo-principal-pt1-img-combo {
+    width: 70%;
+}
+
+.conteudo-principal-pt1-link-1 {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: #167bf7;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+    padding: 3.5% 10%;
+}
+
+.conteudo-principal-pt1-link-2 {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid 1px #FFFFFF;
+    width: 80%;
+    text-align: center;
+    padding: 3.5% 10%;
+}
+
+.conteudo-principal-pt1-texto {
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    color: #C0C0C0;
+}
