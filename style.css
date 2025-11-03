@@ -130,3 +130,16 @@ body {
 .conteudo-principal-pt3-img-telas {
     width: 35%;
 }
+
+.conteudo-principal-pt3-link {
+    color: var(--cor-texto-principal-);
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    padding: 4% 1%;
+    background-color: #167bf7;
+    width: 30%;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 5px;
+}
