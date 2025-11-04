@@ -109,7 +109,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 10% 0%;
+    padding: 5% 0%;
 }
 
 .conteudo-principal-pt3-escrito {
@@ -149,7 +149,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding: 10% 0%;
+    padding: 5% 0%;
 }
 
 .conteudo-principal-pt4-img-notebook {
@@ -176,4 +176,48 @@ body {
     font-weight: 100;
     font-family: "Inter", sans-serif;
     line-height: 1.5;
+}
+
+.conteudo-principal-pt5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-principal-pt5-titulo {
+    color: var(--cor-texto-principal-);
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 3% 0%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-principal-pt5-plataformas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5% 0%;
+}
+
+.caixa-plataformas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 30%;
+}
+
+.titulo-plataforma {
+    color: var(--cor-texto-principal-);
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-principal-pt5-img-plataformas {
+    width: 90%;
 }
