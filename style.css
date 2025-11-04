@@ -143,3 +143,37 @@ body {
     margin-top: 3%;
     border-radius: 5px;
 }
+
+.conteudo-principal-pt4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10% 0%;
+}
+
+.conteudo-principal-pt4-img-notebook {
+    width: 35%;
+}
+
+.conteudo-principal-pt4-escrito {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 15px;
+}
+
+.conteudo-principal-pt4-titulo {
+    color: var(--cor-texto-principal-);
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.conteudo-principal-pt4-texto {
+    color: var(--cor-texto-secundario-);
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+}
