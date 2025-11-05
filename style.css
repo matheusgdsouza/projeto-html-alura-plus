@@ -251,4 +251,139 @@ body {
     margin-bottom: 3%;
     font-weight: 200;
     font-size: 0.87rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 500px) {
+
+    .conteudo-principal-pt1 {
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .conteudo-principal-pt1-caixa-conteudo {
+        width: 85%;
+        margin: 5% 0%;
+    }
+
+    .conteudo-principal-pt1-titulo {
+        width: 100%;
+    }
+
+    .conteudo-principal-pt1-texto {
+        text-align: center;
+    }
+
+    .conteudo-principal-pt2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo-principal-pt2-img-plataformas {
+        width: 60%;
+    }
+
+    .conteudo-principal-pt2-caixa-texto {
+        width: 90%;
+        text-align: center;
+    }
+
+    .conteudo-principal-pt2-titulo {
+        font-size: 2rem;
+        margin: 5% 0%;
+    }
+
+    .conteudo-principal-pt3 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 5% 0%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .conteudo-principal-pt3-img-telas {
+        width: 60%;
+        margin: 10% 0%;
+    }
+
+    .conteudo-principal-pt3-escrito {
+        width: 90%;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .conteudo-principal-pt3-link {
+        width: 50%;
+    }
+
+    .conteudo-principal-pt4 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .conteudo-principal-pt4-escrito {
+        width: 90%;
+        text-align: center;
+        margin: 5% 0%;
+    }
+
+    .conteudo-principal-pt4-titulo {
+        font-size: 2rem;
+        margin-bottom: 5%;
+    }
+
+    .conteudo-principal-pt4-img-notebook {
+        width: 60%;
+    }
+
+    .conteudo-principal-pt5-titulo {
+        font-size: 2rem;
+    }
+
+    .conteudo-principal-pt5-plataformas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .caixa-plataformas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo-principal-pt5-img-plataformas {
+        width: 95%;
+    }
+
+    .titulo-plataforma {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .rodape {
+        margin: 5% 0%;
+    }
+
+    .rodape-logo {
+        width: 40%;
+        margin: 5% 0%;
+    }
+
+    .rodape-caixa-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10% 0%;
+    }
+
+    .rodape-texto {
+        width: 95%;
+        font-size: 0.75rem;
+    }
+
 }
