@@ -32,6 +32,3 @@ Você pode acessar o projeto online através do link abaixo:
 
 👉 **[https://SEU-LINK-DO-VERCEL.vercel.app](https://projeto-html-alura-plus-zeta.vercel.app/)**
 
-
-LinkedIn: https://www.linkedin.com/in/seu-perfil  
-Email: SEU_EMAIL_AQUI
